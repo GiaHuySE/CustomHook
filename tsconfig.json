@@ -21,6 +21,8 @@
     "jsx": "react-jsx"
   },
   "include": [
-    "src"
+    "src",
+    "src/custom-hook/useTheme.ts",
+    "src/custom-hook/useCountDown.ts"
   ]
 }
