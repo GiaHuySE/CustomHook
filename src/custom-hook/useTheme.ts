@@ -52,11 +52,7 @@ const useTheme = (initialDarkMode: boolean): Theme => {
     }, [isDarkMode]);
 
     const toggle = () => {
-        if (isDarkMode) {
-            setIsDarkMode(false);
-        } else {
-            setIsDarkMode(true)
-        }
+        set(!isDarkMode)
     }
 
     // const onDarkModeChange = (isDarkMode: boolean): boolean => {
